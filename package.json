@@ -1,0 +1,22 @@
+{
+  "name": "rollup-node-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": " rollup -c"
+  },
+  "keywords": [],
+  "author": "shaokun",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.5.1",
+    "rollup-plugin-polyfill-node": "^0.13.0"
+  },
+  "dependencies": {
+    "@metamask/eth-sig-util": "^7.0.1"
+  }
+}
